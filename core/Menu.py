@@ -48,7 +48,7 @@ banner = """
 
 
 def checkFileRead(filename):
-    """Check if file exists and we have access to read it"""
+    """Check if file exists  we have access to read it"""
     if os.path.isfile(filename) and os.access(filename, os.R_OK):
         return filename
     else:

@@ -31,7 +31,7 @@ __author__  = 'maldevel'
 import sys, os
 from core.IpGeoLocationLib import IpGeoLocationLib
 from core.Logger import Logger
-from core.Menu import parser,args,banner
+from core.Menu import parser, args, banner
     
 def main():
 
